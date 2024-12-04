@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+nav {
+  background-color: #df58c1;
+  color: white;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.navList {
+  list-style: none;
+  display: flex;
+}
+.navList li {
+  margin: 0px 30px;
+}
+.navList li:hover{
+    color: black;
+}
+.navList li a{
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 600;
+  cursor: pointer;
+}
+.cartIcon{
+  margin: 0px 8px;
+}

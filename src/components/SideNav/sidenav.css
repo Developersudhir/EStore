@@ -1,0 +1,64 @@
+.sidenav {
+    /* background-color: black; */
+    background-color: #5c5443;
+    position: fixed;
+    right: 0;
+    height: 100vh;
+    color: whitesmoke;
+    width: 0;
+    transition: width 0.3s ease-in-out, transform 0.3s ease-in-out;
+    z-index: 1000;
+    margin-top: -50px;
+}
+
+.w300 {
+    width: 300px;
+    padding: 10px;
+}
+.crossIcon{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 5px;
+}
+.cross{
+    font-size: 40px;
+    cursor: pointer;
+}
+.filterArea{
+    font-size: 20px;
+    margin-top: 25px;
+}
+.collapsible-header {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    
+  }
+  
+  .collapsible-content {
+    list-style-type: none;
+    padding-left: 20px;
+    
+  }
+  
+.collapsible-content li{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}  
+/* .filterArea li{
+    width: 85%;
+} */
+.catIcon{
+    font-size: 30px;
+}
+.filterCheckbox{
+    width: 50px;
+    cursor: pointer;
+}
+.filterArea li {
+    margin: 20px 0px;
+}
